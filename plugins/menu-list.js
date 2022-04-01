@@ -395,7 +395,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     let pp = fs.readFileSync('./src/welcome.jpg')
-    await conn.sendHButtonLoc(m.chat,pp, text.trim(), '🅛=limit 🅟=premium', "📍Instagram", instagram, `Kembali Ke List Menu`, `.menu`, m)
+    await conn.sendHButtonLoc(m.chat,pp, text.trim(), '🅛=limit 🅟=premium', "📍ＴａｓｙａGoblok", instagram, `Kembali Ke List Menu`, `.menu`, m)
 } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
