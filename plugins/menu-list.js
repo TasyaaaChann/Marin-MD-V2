@@ -214,7 +214,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
       const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             title: `*${ucapan()}, ${name}*`,
-            description: `┏━━〔 *Ｍａｒｉｎ－ＭＤ* 〕━⬣\n┃⬡ 𝘼𝙠𝙩𝙞𝙛 𝙎𝙚𝙡𝙖𝙢𝙖 _*${uptime}*_\n┃⬡ _*${Object.keys(global.db.data.users).length}*_ 𝙋𝙚𝙣𝙜𝙜𝙪𝙣𝙖\n┃⬡ 𝙈𝙤𝙙𝙚 : *${global.opts['self'] ? 'Self' : 'publik'}*\n┗━━━━━━━━⬣`,
+            description: `┏━━〔 *Ｔａｓｙａ－ＭＤ* 〕━⬣\n┃⬡ 𝘼𝙠𝙩𝙞𝙛 𝙎𝙚𝙡𝙖𝙢𝙖 _*${uptime}*_\n┃⬡ _*${Object.keys(global.db.data.users).length}*_ 𝙋𝙚𝙣𝙜𝙜𝙪𝙣𝙖\n┃⬡ 𝙈𝙤𝙙𝙚 : *${global.opts['self'] ? 'Self' : 'publik'}*\n┗━━━━━━━━⬣`,
             buttonText: 'LIST MENU',
             listType: 1,
             footerText: "Join Group Bot\nhttps://chat.whatsapp.com/BkxbwERGX9x0mAhAsiDWxP\n>‿‿<",
