@@ -54,7 +54,7 @@ global.APIKeys = { // APIKey Here
   'https://hardianto-chan.herokuapp.com': 'hardianto',
   'https://pencarikode.xyz': 'pais', 
   'https://leyscoders-api.herokuapp.com': 'dappakntlll',
-  'https://zekais-api.herokuapp.com': 'apikeymu',
+  'https://zenzapi.xyz': 'sanzychan01',
   'https://api.lolhuman.xyz': 'Deffbotz',
 }
 //cari apikey sendiri ya gaes yak
