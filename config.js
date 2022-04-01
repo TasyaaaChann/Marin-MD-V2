@@ -18,7 +18,7 @@ function pickRandom(list) {
   return list[Math.floor(Math.random() * list.length)]
 }
 global.owner = ['6283830815715'] // Put your number here
-global.mods = [] // Want some help?
+global.mods = ['6283830815715'] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
